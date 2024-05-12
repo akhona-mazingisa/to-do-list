@@ -10,7 +10,7 @@ function addTask() {
         listContainer.appendChild(li);
         var img = document.createElement("img");
         img.src = "assets/delete.png";
-        li.appendChild(svg);
+        li.appendChild(img);
     }
     inputBox.value = "";
     saveData();
