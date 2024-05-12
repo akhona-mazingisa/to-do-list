@@ -4,7 +4,8 @@ const listContainer = document.getElementById("list-container");
 function addTask() {
     if(inputBox.value === ''){
         alert("Add a new task");
-    } else {
+    } 
+    else {
         let li = document.createElement(li);
         li.innerHTML = inputBox.value;
         listContainer.appendChild(li);
@@ -34,5 +35,4 @@ function saveData() {
 function showTask() {
     listContainer.innerHTML = localStorage.getItem("data");
 }
-
 showTask();
