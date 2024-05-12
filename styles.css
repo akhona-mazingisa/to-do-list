@@ -15,6 +15,7 @@ body {
 }
 
 .container {
+    width: 100%;
     height: 100%;
     margin: 0px auto;
     padding: 0px;
@@ -46,7 +47,7 @@ body {
 
 input {
     flex: 1;
-    background: #0D0714;
+    background: transparent;
     border: 1px solid #46345F;
     border-radius: 10px;
     margin: 6px;
@@ -56,7 +57,7 @@ input {
     height: 85%;
     align-items: center;
     font-size: 15px;
-    color: #9672C4;
+    color: #737373;
 }
 
 button {
@@ -85,8 +86,8 @@ ul li {
     padding: 12px 8px 12px 50px;
     user-select: none;
     cursor: pointer;
-    position: relative;
     color: #9672C4;
+    position: relative;
 }
 
 ul li::before {
