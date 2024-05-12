@@ -86,6 +86,7 @@ ul li {
     user-select: none;
     cursor: pointer;
     position: relative;
+    color: #9672C4;
 }
 
 ul li::before {
