@@ -6,7 +6,7 @@ function addTask() {
         alert("Add a new task");
     } 
     else {
-        let li = document.createElement(li);
+        let li = document.createElement("li");
         li.innerHTML = inputBox.value;
         listContainer.appendChild(li);
         var img = document.createElement("img");
