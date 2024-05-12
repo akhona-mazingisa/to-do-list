@@ -6,6 +6,14 @@
         letter-spacing: 1px;
 }
 
+body {
+    background: #0D0714;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 100px;
+}
+
 .container {
     height: 100%;
     margin: 0px auto;
@@ -24,4 +32,40 @@
     margin: 100px auto 20px;
     padding: 40px 30px 70px;
     border-radius: 10px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #0D0714;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+.input {
+    background: #0D0714;
+    border: 1px solid #46345F;
+    border-radius: 10px;
+    margin: 6px;
+    padding: 10px;
+    display: block;
+    width: 675%;
+    height: 85%;
+    align-items: center;
+    font-size: 15px;
+    color: #9672C4;
+}
+
+#addButton {
+    background: #9F79CF;
+    color: #fff;
+    border-radius: 10px;
+    transition: all 0.45s ease 0s;
+    width: 94;
+    height: 78;
+    font-size: 20px;
+    padding: 8px;
+    margin: auto;
 }
