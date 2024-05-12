@@ -75,6 +75,11 @@ button {
     border: none;
 }
 
+button:hover {
+    background: #3f1e71;
+    color: #ebe7f1;
+}
+
 /*button img {
     width: 32px;
     height: 32px;
